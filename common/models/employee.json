@@ -1,0 +1,33 @@
+{
+  "name": "Employee",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "IDemployee": {
+      "type": "number",
+      "required": true
+    },
+    "Name": {
+      "type": "string"
+    },
+    "DoB": {
+      "type": "string"
+    },
+    "Gender": {
+      "type": "string"
+    },
+    "Salary": {
+      "type": "number"
+    },
+    "Phone": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Department",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "IDdepartment": {
+      "type": "number",
+      "required": true
+    },
+    "DepartmentName": {
+      "type": "string"
+    },
+    "AmountofEmployee": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

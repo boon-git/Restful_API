@@ -1,0 +1,29 @@
+{
+  "name": "Job",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "IDemployee": {
+      "type": "number",
+      "required": true
+    },
+    "IDmanager": {
+      "type": "number",
+      "required": true
+    },
+    "IDdepartment": {
+      "type": "number",
+      "required": true
+    },
+    "DepartmentName": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

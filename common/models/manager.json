@@ -1,0 +1,22 @@
+{
+  "name": "Manager",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "IDmanager": {
+      "type": "number",
+      "required": true
+    },
+    "IDdepartment": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
